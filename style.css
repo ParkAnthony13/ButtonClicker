@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px dotted black; */
+}
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    padding:1rem;
+    margin: 15%;
+    width: 40%;
+    height: auto;
+    border: 2px solid plum;
+
+}
+.boxTitle{
+    display: flex;
+    height:3rem;
+    margin: 0rem 5rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight:600;
+}
+.boxTitle2{
+    display: flex;
+    height:3rem;
+    margin: 0rem 5rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight:600;
+}
+.count{
+    display:flex;
+}
+.buttonRow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    width: 4rem;
+    height: 6rem;
+    margin: 1rem;
+    background-color: navy;
+    border: 2px solid black;
+}
+.prize {
+    height:20px;
+    width: auto;
+    background-color: gold;
+    outline: 2px solid black;
+}
+#what {
+    height:20px;
+    width: auto;
+    background-color: red;
+    outline: 2px solid black;
+}
+.reset {
+    height:20px;
+    width: auto;
+    background-color: gold;
+    outline: 2px solid black;
+}
